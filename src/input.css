@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+    background: #F5F5F5;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 0 5em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo-wrapper img {
+    margin-right: .5em;
+    width: 40px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2em;
+    font-size: .9rem;
+}
+
+.icons {
+    display: flex;
+}
+
+
+.icons img{
+    width: 65px; 
+    padding: 0 1.5em;
+}
+
+.mid-icon {
+    border-inline: 2px solid #ccc;
+}
+
+.cover {
+    display: flex;
+}
+
+.cover-text {
+    border: 1px solid red;
+    width: 40%;
+}
+
+.meh {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    border: none;
+    width: 33px;
+    height: 33px;
+    background: orange;
+    border-radius: 50%;
+}
+
+.year {
+    background: #000;
+    color: #fff;
+    padding: .3em 1.5em;
+    border-radius: 25px;
+}
+
+.text h2 {
+    border: 1px solid red;
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 85%;
+    line-height: 1.2em;
+    margin: 1em 0;
+}
+
+.text p {
+    border: 1px solid green;
+    width: 85%;
+}
+
+.cover-btn {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.solid-btn {
+    border: 1px transparent solid;
+    padding: .3em 1.2em;
+    border-radius: 10px;
+    background: orange;
+    color: #fff;
+    margin-right: 1em;
+}
+
+.dashed-btn {
+    border: 1px dashed orange;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-flex img {
+    border: 1px solid orange;
+    border-radius: 50%;
+    padding: .3em;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-right: .5em;
+}
+
+.cover-graphics {
+    border: 1px solid blue;
+    width: 40%;
+    position: relative;
+}
+
+.img-cont {
+    border: 1px solid red;
+    width: 50%;
+    bottom: 0;
+    left: 25%;
+    height: 100%;
+    box-sizing: content-box;
+    position: absolute;
+}
+
+.excited {
+    position: absolute;
+    border: 1px dashed green;
+    width: 100%;
+}
+
+.stats {
+    border: 1px solid green;
+    width: 15%;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "shopsmart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the43rdsensei-0/Shopsmart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the43rdsensei-0/Shopsmart/issues"
+  },
+  "homepage": "https://github.com/the43rdsensei-0/Shopsmart#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
